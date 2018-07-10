@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.ProfilePanel">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="801" height="651"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="21f16" binding="header" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="600" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4396992"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5fd09" class="javax.swing.JButton" binding="VISIONButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4396992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <enabled value="true"/>
+              <font name="Dialog" size="18" style="0"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <opaque value="false"/>
+              <text value="My Products"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="f961f" class="javax.swing.JButton" binding="EQUIPObutton">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Dialog" size="18" style="0"/>
+              <foreground color="-16777216"/>
+              <horizontalTextPosition value="0"/>
+              <label value="Administration"/>
+              <text value="Administration"/>
+            </properties>
+          </component>
+          <component id="3b2cd" class="javax.swing.JButton" binding="CARRITObutton">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <icon value="View/shoppingcart.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="45d93" class="javax.swing.JLabel" binding="LOGO">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="20" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="28" style="1"/>
+              <foreground color="-1"/>
+              <icon value="View/logo.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="49fba" class="javax.swing.JButton" binding="PERFILButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Dialog" size="18" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Profile"/>
+            </properties>
+          </component>
+          <component id="f6f01" class="javax.swing.JButton" binding="SEARCHbutton">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <icon value="View/searchicon.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8463" binding="footnote" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4396992"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7568a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="36" style="1"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <icon value="View/logo2.png"/>
+              <text value=" "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="451a0" binding="middle" layout-manager="GridLayoutManager" row-count="19" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-9330861"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a7273" class="javax.swing.JLabel" binding="registrationLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="36" style="1"/>
+              <foreground color="-4396992"/>
+              <horizontalAlignment value="0"/>
+              <text value="Personal Information"/>
+            </properties>
+          </component>
+          <component id="65d29" class="javax.swing.JLabel" binding="nameLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="17858" class="javax.swing.JLabel" binding="surnameLabel">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Surname"/>
+            </properties>
+          </component>
+          <component id="9306d" class="javax.swing.JLabel" binding="usernameLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="8833c" class="javax.swing.JLabel" binding="emailLabel">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Email"/>
+            </properties>
+          </component>
+          <component id="8e7b9" class="javax.swing.JLabel" binding="CountryLabel">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Country"/>
+            </properties>
+          </component>
+          <hspacer id="1369d">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="c0eda">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="2365a" class="javax.swing.JTextField" binding="name">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="52dac" class="javax.swing.JTextField" binding="surname">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="57b51" class="javax.swing.JTextField" binding="username">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="15627" class="javax.swing.JTextField" binding="email">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bdd34" class="javax.swing.JTextField" binding="country">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="cb801" class="javax.swing.JTextField" binding="mainPhone">
+            <constraints>
+              <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="869c5" class="javax.swing.JLabel" binding="mainPhoneLabel">
+            <constraints>
+              <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Phone"/>
+            </properties>
+          </component>
+          <component id="fb996" class="javax.swing.JTextField" binding="province">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="fb0a" class="javax.swing.JLabel" binding="ProvinceLabel">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Province"/>
+            </properties>
+          </component>
+          <component id="e2dd8" class="javax.swing.JLabel" binding="NeighbourhoodLabel">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="City"/>
+            </properties>
+          </component>
+          <component id="20ee2" class="javax.swing.JTextField" binding="neighborhood">
+            <constraints>
+              <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8fed9" class="javax.swing.JLabel" binding="postalCodeLabel">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Postal code"/>
+            </properties>
+          </component>
+          <component id="54ad6" class="javax.swing.JTextField" binding="postalCode">
+            <constraints>
+              <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="aa14e" class="javax.swing.JLabel" binding="streetLabel">
+            <constraints>
+              <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Street"/>
+            </properties>
+          </component>
+          <component id="af036" class="javax.swing.JLabel" binding="streetNumberLabel">
+            <constraints>
+              <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Number"/>
+            </properties>
+          </component>
+          <component id="7d598" class="javax.swing.JTextField" binding="apartment">
+            <constraints>
+              <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="a34c1" class="javax.swing.JLabel" binding="apartmentLabel">
+            <constraints>
+              <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Phone type"/>
+            </properties>
+          </component>
+          <component id="1b527" class="javax.swing.JButton" binding="modificarButton" default-binding="true">
+            <constraints>
+              <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4396992"/>
+              <font name="Dialog" size="24" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Modify"/>
+            </properties>
+          </component>
+          <component id="9002" class="javax.swing.JTextField" binding="docType">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="b13ba" class="javax.swing.JLabel" binding="docTypeLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Document type"/>
+            </properties>
+          </component>
+          <component id="2b3ed" class="javax.swing.JLabel" binding="documentLabel">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Document"/>
+            </properties>
+          </component>
+          <component id="2d6ed" class="javax.swing.JTextField" binding="document">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="dffa8" class="javax.swing.JTextField" binding="street">
+            <constraints>
+              <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <component id="84aa0" class="javax.swing.JTextField" binding="streetNumber">
+            <constraints>
+              <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="25"/>
+                <preferred-size width="150" height="25"/>
+                <maximum-size width="-1" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font name="Dialog" size="16" style="0"/>
+              <foreground color="-9330861"/>
+            </properties>
+          </component>
+          <vspacer id="f99e1">
+            <constraints>
+              <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="10"/>
+                <preferred-size width="-1" height="10"/>
+                <maximum-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="70665">
+            <constraints>
+              <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="10"/>
+                <preferred-size width="-1" height="10"/>
+                <maximum-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
