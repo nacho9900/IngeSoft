@@ -20,7 +20,7 @@ A minimum of 1GB ram is requiere,although we recommend 2GB.
 
     Download and install the Java Runtime Environment (if you do not have it already).
     
-    Download Kaufen-Desktop-App.jar from [this reposiroty] (https://github.com/nacho9900/IngeSoft)
+    Download Kaufen-Desktop-App.jar from [this reposiroty] (https://github.com/nacho9900/IngeSoft/tree/master/Desktop-App)
     
     Double click the downloaded file.
     
